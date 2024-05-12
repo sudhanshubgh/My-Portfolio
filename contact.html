@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>contact</title>
+
+	<!-- font awesome cdn link -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+
+	<!-- custom css file link -->
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+
+	<!-- animation onscroll --> 
+	<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+
+</head>
+<body>
+	
+<!-- navbar section starts -->
+
+<nav class="navbar">
+	<a href="home.html"><i class="fas fa-home"></i><span>home</span></a>
+	<a href="about.html"><i class="fas fa-user"></i><span>about</span></a>
+	<a href="experience.html"><i class="fas fa-briefcase"></i><span>experience</span></a>
+	<a href="service.html"><i class="fa-solid fa-desktop"></i><span>service</span></a>
+	<a href="course.html"><i class="fas fa-book"></i><span>course</span></a>
+	<a href="contact.html"><i class="fas fa-address-book"></i><span>contact</span></a>
+</nav>
+<!-- navbar section ends -->
+<!-- contact section starts -->
+<section class="contact"  data-aos="fade-up" data-aos-duration="200">
+	<h1 class="heading" >Contact <span>me</span></h1>
+	<div class="row">
+		<div class="info-container">
+			<h1>get in touch</h1>
+
+			<p>Got a project or collaboration in mind? Let's chat! Drop me a line using the form below or connect on social media. Looking forward to collaborating with you!</p>
+
+			<div class="share">
+				<a href="https://www.facebook.com/sudhanshubgh" class="fab fa-facebook-f"></a>
+				<a href="https://www.instagram.com/sudhanshu_k_singh_/" class="fab fa-instagram"></a>
+				<a href="https://www.linkedin.com/in/sudhanshuksingh1/" class="fab fa-linkedin"></a>
+				<a href="https://www.youtube.com/PsychoSood7" class="fab fa-youtube"></a>
+				<a href="https://twitter.com/psychosood" class="fa-brands fa-x-twitter"></a>
+
+			</div>
+
+			<div class="box-container"data-aos="fade-up" data-aos-duration="600">
+				
+				<div class="box">
+					<i class="fas fa-map"></i>
+					<div class="info">
+						<h3>address :</h3>
+						<p>Noida, UP - 201307</p>
+					</div>
+				</div>
+
+				<div class="box">
+					<i class="fas fa-envelope"></i>
+					<div class="info">
+						<h3>email :</h3>
+						<p>sudhanshu124197@gmail.com</p>
+					</div>
+				</div>
+
+				<div class="box">
+					<i class="fas fa-phone"></i>
+					<div class="info">
+						<h3>Phone :</h3>
+						<p>+91 7008099610</p>
+					</div>
+				</div>
+
+			</div>
+
+			
+
+
+
+		</div>
+
+		<form action="" data-aos="fade-up" data-aos-duration="1500">
+			<div class="inputBox">
+				<input type="text" name="text" placeholder="your name" required>
+				<input type="tel" id="contact_number" name="contact_number" placeholder="your number" minlength="10" maxlength="10" oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0, 10);" required>
+			</div>
+
+			<div class="inputBox">
+				<input type="email" name="email" placeholder="your email" required>
+				<input type="text" name="text" placeholder="your subject" required>
+			</div>
+			<textarea name="" placeholder="your message" id="message" cols="30" row="10" required></textarea>
+
+			<input type="submit" value="send message" class="btn">
+
+
+			
+		</form>
+
+
+
+	</div>
+</section>
+<!-- contact section ends -->
+
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
