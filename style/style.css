@@ -96,7 +96,7 @@ section {
     text-align: center; }
     .home .image img {
       height: 50rem;
-      width: 40rem;
+      width: auto;
       border-radius: 20% 20% 10% 20% / 20% 20% 0% 20%; }
   .home .content {
     flex: 1 1 42rem; }
